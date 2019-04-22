@@ -1,5 +1,5 @@
 # mobilenetv2-fastaiv1
-MobileNetV2 for fastaiV1 (pretrained and with [optional] batchnorm fusion) 
+MobileNetV2 for fastai V1 (pretrained and with [optional] batchnorm fusion) 
 
 Usage (see the Jupyter Notebook for details):
 
