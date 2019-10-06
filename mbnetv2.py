@@ -5,7 +5,7 @@ from requests.utils import urlparse
 
 import torch
 import torch.nn as nn
-from torch.utils.model_zoo import _download_url_to_file as _download_url_to_file
+from torch.hub import _download_url_to_file as _download_url_to_file
 from MobileNetV2 import MobileNetV2  # https://github.com/tonylins/pytorch-mobilenet-v2
 
 HASH_REGEX = re.compile(r'-([a-f0-9]*)\.')
